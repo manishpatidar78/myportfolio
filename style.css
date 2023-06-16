@@ -22,7 +22,7 @@
      font-size: 25px;
      height: 50px;
      padding-top: 7px;
-     vertical-align: middle;
+
 }
 .logo {
      height: 40px;
@@ -62,6 +62,11 @@ a:hover{
 .img2{
      height: 600px;
      cursor: pointer;
+}
+.click{
+     font-size: 35px ;
+     color: #ee82ee;
+     margin-top: 50px;
 }
 /* css for section2 */
 .section2{
@@ -144,20 +149,72 @@ h4{
      width: 80%;
      margin: auto;
 }
-.project_img > h3
+.project_img > h3,h2 
 {
-     margin: 10px;
+text-align: center;
+
 }
 .project_img{
-     width: 200px;
-     height: 200px;
      cursor: pointer;
      border: 3px soild #8a2be2;
+     margin-bottom: 30px;
 }
 .project_img > h3{
      font-size: 30px;
      margin: 10px
 }
+.sorcecodebtn{
+     align-items: center;
+     justify-content: center;
+     background-color: #8a2be2;
+     color: #fff;
+     border: none;
+     font-size: 20px;
+     font-weight: 500;
+     padding: 5px 10px;
+     border-radius: 10px;
+     cursor: pointer;
+}
+.sorcecodebtn:hover{
+     font-weight: 900;
+}
+.project_imges{
+     border: 2px solid blue;
+     width: 200px;
+     height: 200px;
+     margin: 20px;
+}
 .project_img >h3:hover{
      color: var(--a_hover_color);
 }
+.project_imgs1{
+     display: flex;
+     width: 80%;
+     margin: auto;
+     justify-content: center;
+}
+/* css for media querys */
+/* @media screen and (min-width: 320px){
+     .header {
+          display: flex;
+     
+
+     }
+     .logo {
+          height: 10px;
+          width: 10px;
+          cursor: pointer;
+     }
+      .menus{
+          margin-left: 5px;
+          
+     } 
+     a{
+          color: var(--color_white);
+          text-decoration: none;
+     }
+     a:hover{
+          color: var(--a_hover_color);
+     }
+     
+} */
